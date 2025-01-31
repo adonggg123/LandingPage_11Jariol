@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>judeWebsite</title>
+<style>
+    body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.background{
+        background-image: url('jude.jpg');
+        background-size: cover; 
+        background-position: center; 
+        height: 100vh; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    .background::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+    }
+    h1{
+        color: white;
+        font-family: verdana;
+    }
+    h2{
+        background-color: green;
+        padding: 10px;
+        width: fit-content;
+        margin: auto;
+        border-radius: 80px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+    h2:hover{
+        background-color: limegreen;
+        transform: scale (1.1);
+    }
+    a{
+        color: white;
+        font-family: couriser; 
+    }
+    mark{
+        background: none;
+        color: yellow;
+        font-weight: bold;
+    }
+    .content {
+            z-index: 2;
+            text-align: center;
+        }
+</style>
+</head>
+<body >
+    <div class="background">
+      <dive class= "content">
+    <h2><a href="Home.html"class="button" style="text-decoration: none"><mark>Home</mark></a></h2>
+
+        <h1><p><center>Welcome!</center></p></h1>
+
+    <h2><a href="About.html"class="button" style="text-decoration: none">About</a></h2>
+    <h2><a href="Blog.html"class="button" style="text-decoration: none">Blog</a></h2>
+    <h2><a href="Pages.html"class="button" style="text-decoration: none">Pages</a></h2>
+    <h2><a href="Services.html"class="button" style="text-decoration: none">Services</a></h2>
+    <h2><a href="Contact.html"class="button" style="text-decoration: none">Contact</a></h2>
+    <h2><a href="judeweb.html"class="button" style="text-decoration: none">Go back</a></h2>
+      </dive>
+    </div>
+</body>
+</html>
