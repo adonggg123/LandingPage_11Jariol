@@ -1,0 +1,13 @@
+.background{
+    background-image: url('jude.jpg');
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.submitbtn{
+    margin-top: 10px;
+}
